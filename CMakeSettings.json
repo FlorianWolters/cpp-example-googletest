@@ -1,0 +1,31 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [
+        "msvc_x64_x64"
+      ],
+      "buildRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\build\\${name}",
+      "installRoot": "${env.USERPROFILE}\\CMakeBuilds\\${workspaceHash}\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "VCPKG_ROOT",
+          "value": "D:\\dev\\native\\vcpkg\\vcpkg-master"
+        },
+        {
+          "name": "OpenCppCoverage_ROOT",
+          "value": "D:\\dev\\native\\opencppcoverage\\opencppcoverage-0.9.7.0-x64"
+        },
+        {
+          "name": "ReportGenerator_ROOT",
+          "value": "D:\\dev\\native\\reportgenerator\\reportgenerator-4.1.5-x86"
+        }
+      ]
+    }
+  ]
+}
